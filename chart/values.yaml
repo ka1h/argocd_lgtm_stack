@@ -1,0 +1,22 @@
+# Global Values
+repoUrl: "https://github.com/ka1h/argocd_lgtm_stack.git"
+targetRevision: HEAD
+region: ""
+account: ""
+clusterName: ""
+
+# Grafana Values
+grafana: 
+  enable: false 
+
+# Loki Values
+loki: 
+  enable: false 
+
+# Mimir Values
+mimir:
+  enable: false
+
+# Tempo Values
+tempo:
+  enable: false
