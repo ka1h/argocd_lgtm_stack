@@ -7,7 +7,7 @@ clusterName: ""
 
 # Grafana Values
 grafana: 
-  enable: false 
+  enable: true 
 
 # Loki Values
 loki: 
