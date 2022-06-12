@@ -5,13 +5,13 @@ grafana:
       kubernetes.io/ingress.class: alb
       alb.ingress.kubernetes.io/listen-ports: '[{"HTTPS":443}]'
       alb.ingress.kubernetes.io/scheme: internet-facing
+    path: /
+    hosts:
+      - graf.qual.euris.eurofins.de
   service:
     annotations:
       alb.ingress.kubernetes.io/target-type: ip
-  path: /
-  hosts:
-    - graf.qual.euris.eurofins.de
-
+  
   datasources:
     datasources.yaml:
       apiVersion: 1
